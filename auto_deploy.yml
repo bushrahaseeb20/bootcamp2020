@@ -29,6 +29,6 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Instlling surge
       run: npm install -g surge
-    - name: deploying usind surge
+    - name: deploying using surge
       run: surge ./ bootcampiaic2020.surge.sh --token ${{ secrets.SURGE_TOKEN }}
       
